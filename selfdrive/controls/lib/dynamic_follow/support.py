@@ -25,7 +25,8 @@ class dfProfiles:
   stock = 1
   roadtrip = 2
   auto = 3
-  to_profile = {0: 'traffic', 1: 'stock', 2: 'roadtrip', 3: 'auto'}
+  towing = 4
+  to_profile = {0: 'traffic', 1: 'stock', 2: 'roadtrip', 3: 'auto', 4: 'towing'}
   to_idx = {v: k for k, v in to_profile.items()}
 
   default = stock

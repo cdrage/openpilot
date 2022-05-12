@@ -258,6 +258,8 @@ class DynamicFollow:
       return 1.45
     elif df_profile == self.df_profiles.roadtrip:  # previous stock following distance
       return 1.8
+    elif df_profile == self.df_profiles.towing:  # previous stock following distance
+      return 2.0
     else:
       raise Exception('Unknown profile type: {}'.format(df_profile))
 
